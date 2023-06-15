@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CA - Index</title>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Personal Blog">
+        <meta name="author" content="C.Alferez">
+        <meta name="keywords" content="Portfolio, Software Engineer, Software Developer, Developer, ">
+
+        <link href="assets/img/web-icon.png" rel="icon">
+
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/theme.css" rel="stylesheet">
+        <link href="assets/css/style.css" rel="stylesheet">
+
+        <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,400italic,700italic" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    </head>
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+        <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="/">
+                        CHAN
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="/">Home</a>
+                        </li>
+                        <li>
+                            <a href="/">Career</a>
+                        </li>
+                        <li>
+                            <a href="/">Life Outside Work</a>
+                        </li>
+                        <li>
+                            <a href="/">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <header class="intro">
+            <div class="intro-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <h1 class="brand-heading">CHRISTIAN ALFEREZ</h1>
+                            <p class="intro-text">
+                                SOFTWARE ENGINEER | .NET DEVELOPER | FULL-STACK DEVELOPER
+                            </p>
+                            <a href="#about" class="btn btn-circle page-scroll animate-down">
+                                <i class="fa fa-angle-double-down"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <section id="about">
+            <div class="container content-section text-center">
+                <div class="row">
+                    <h2>LIL' ABOUT ME</h2>
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <p>
+                            Praesent ac dignissim diam. Aliquam lobortis elit et sapien eleifend, at sollicitudin metus elementum. Morbi imperdiet id ipsum at tristique. Nam suscipit tristique sem, <a href="#">quis</a> laoreet leo. Maecenas eget ante ipsum.
+                        </p>
+                        <p>
+                            <a href="#" class="btnghost"><i class="fa fa-download"></i> Curriculum Vitae</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- script -->
+        <div data-includeHTML="shared-page/include-js.html"></div>
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script type="">
+            $(document).ready(function () {
+                $("div[data-includeHTML]").each(function () {                
+                    $(this).load($(this).attr("data-includeHTML"));
+                });
+            });
+        </script>
+    </body>
+</html>
