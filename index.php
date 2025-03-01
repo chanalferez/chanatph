@@ -1,4 +1,4 @@
 <?php
-header("Location: https://portfolio.christian-dev.com/");
+header("Location: https://christian-dev.com/");
 exit();
 ?>
